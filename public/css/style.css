@@ -25,3 +25,48 @@ header.header{
 
 header h1{ font-size: 3.4em; }
 header h2{ font-weight: normal; }
+
+main{
+	width: 100%;
+}
+
+main form{
+	width: 300px;
+	max-width: 95vw;
+	display: block;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+main form input, main form button{
+	display: block;
+	width: 100%;
+	margin: 5px;
+}
+
+main form input::placeholder{ color: #c4dcdf }
+
+main form input{
+	border: 1px solid #c4dcdf;
+	padding: 12px;
+	border-radius: 10px;
+	font-size: 1.3em;
+}
+
+main form button{
+	border: 0;
+	background-color: #3b4eff;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+main form h1{
+	color: #222;
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
